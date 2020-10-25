@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pern-client/static/css/main.5f361e03.chunk.css",
+    "main.js": "/pern-client/static/js/main.bb094e05.chunk.js",
+    "main.js.map": "/pern-client/static/js/main.bb094e05.chunk.js.map",
+    "runtime-main.js": "/pern-client/static/js/runtime-main.f8fbd1ca.js",
+    "runtime-main.js.map": "/pern-client/static/js/runtime-main.f8fbd1ca.js.map",
+    "static/js/2.4d2939bb.chunk.js": "/pern-client/static/js/2.4d2939bb.chunk.js",
+    "static/js/2.4d2939bb.chunk.js.map": "/pern-client/static/js/2.4d2939bb.chunk.js.map",
+    "index.html": "/pern-client/index.html",
+    "precache-manifest.e0237af645fe6f5d7248a6d7a09e97ca.js": "/pern-client/precache-manifest.e0237af645fe6f5d7248a6d7a09e97ca.js",
+    "service-worker.js": "/pern-client/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/pern-client/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4d2939bb.chunk.js.LICENSE.txt": "/pern-client/static/js/2.4d2939bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8fbd1ca.js",
+    "static/js/2.4d2939bb.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.bb094e05.chunk.js"
+  ]
+}
