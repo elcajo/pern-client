@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import InputTodo  from './components/InputTodo';
+import ListTodo  from './components/ListTodo';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const initialState = {
+	route: '/',
+	todo: {
+    todo_id: '',
+    description: ''
+  }
+  }
+
+class App extends Component {
+  constructor() {
+    super();
+    this.state = initialState;
+  }
+
+
+
+render(){
+	return(
+		<div className="App">
+			<InputTodo />
+			<ListTodo 
+			todo_id={this.state.todo.todo_id}
+			description={this.state.todo.description}
+			/>
+		</div>
+		);
 }
 
+}
+
+/*
+function App() {
+  return <Fragment></Fragment>;
+}
+*/
 export default App;
