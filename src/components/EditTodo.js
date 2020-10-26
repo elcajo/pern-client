@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+ import React, { Fragment, useState } from "react";
 
 	const EditTodo = ({allTodo}) => {
 		const [description, setDescription] = useState(allTodo.description);
@@ -14,7 +14,7 @@ import React, { Fragment, useState } from "react";
       				headers: {'Content-Type': 'application/json'},
       				body: JSON.stringify(body)
 				} );
-				window.location = "/";
+				window.location = "/pern-client/";
 				console.log(response);
 			} catch(err){
 
