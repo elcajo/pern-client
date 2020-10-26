@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72eb347ea0010c88a67751235f8c3608",
+    "revision": "b63e8baaa88f2c52668ecbe8d3004052",
     "url": "/pern-client/index.html"
   },
   {
-    "revision": "d1858cd6c720fc325dfb",
+    "revision": "b15a568a5d63dfd0a999",
     "url": "/pern-client/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pern-client/static/js/2.4d2939bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d1858cd6c720fc325dfb",
-    "url": "/pern-client/static/js/main.bb094e05.chunk.js"
+    "revision": "b15a568a5d63dfd0a999",
+    "url": "/pern-client/static/js/main.52e37f2e.chunk.js"
   },
   {
     "revision": "bcc27e6cfe2073f3dafe",
